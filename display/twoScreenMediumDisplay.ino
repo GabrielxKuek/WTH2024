@@ -20,7 +20,7 @@ Adafruit_SSD1306 displayRight(SCREEN_WIDTH, SCREEN_HEIGHT, &I2Cright, OLED_RESET
 
 void setup() {
   // Initialize I2C buses
-  I2Cleft.begin(13, 14);   // SDA = 13, SCK = 14 (left display)
+  I2Cleft.begin(20, 19);   // SDA = 13, SCK = 14 (left display)
   I2Cright.begin(4, 5);    // SDA = 4, SCK = 5 (right display)
 
   // Initialize serial monitor
