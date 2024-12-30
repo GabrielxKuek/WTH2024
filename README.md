@@ -1,6 +1,7 @@
 # Paidion
 ![Paidion Icon](https://github.com/GabrielxKuek/WTH2024/blob/main/assets/paidion-icon.jpg)
-TL;DR tamagotchi for child monitoring
+
+<br>TL;DR tamagotchi for child monitoring
 
 Inspiration As a child, we often tend to avoid doing monotonous and boring things like doing the chores, listening to your parents or taking care of yourself. We wanted to create a way to automate monitoring your children's behaviours and encourage good habits in children.
 
