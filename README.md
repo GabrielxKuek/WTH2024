@@ -1,45 +1,115 @@
-# Paidion
+# Paidion 🎮
+
 <div align="center">
-  <img src="https://github.com/GabrielxKuek/WTH2024/blob/main/assets/paidion-icon.jpg" alt="Paidion Icon">
+  <img src="https://github.com/GabrielxKuek/WTH2024/blob/main/assets/paidion-icon.jpg" alt="Paidion Icon" width="200">
+
+[![ESP32](https://img.shields.io/badge/ESP32-S3-blue.svg)](https://www.espressif.com/)
+
+  <h4>
+    <a href="#demo">View Demo</a>
+    ·
+    <a href="https://github.com/GabrielxKuek/WTH2024/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/GabrielxKuek/WTH2024/issues">Request Feature</a>
+  </h4>
 </div>
-TL;DR tamagotchi for child monitoring<br>
 
-Inspiration As a child, we often tend to avoid doing monotonous and boring things like doing the chores, listening to your parents or taking care of yourself. We wanted to create a way to automate monitoring your children's behaviours and encourage good habits in children.
+---
 
-This ultimately led to the inception of Paidion, automating child monitoring through the concept of gamification.
+## 📱 About The Project
 
-What it does Paidion is an interactive digital companion that helps children develop positive habits through engaging gameplay. Drawing inspiration from virtual pets, Paidion creates a meaningful connection between a child's daily responsibilities and their digital friend's wellbeing. Parents can customize daily tasks and goals through their dashboard, such as completing homework, brushing teeth, or helping with household chores.
+Paidion is your child's digital companion that transforms everyday tasks into an engaging adventure. Think Tamagotchi meets modern parenting - where good habits lead to a thriving virtual pet!
 
-When children successfully complete their assigned tasks, their digital companion thrives and grows stronger. Conversely, missing responsibilities affects their companion's health and happiness. To make the experience more social and motivating, children can interact with their friends' companions, fostering friendly competition and mutual encouragement. They can participate in cooperative activities or engage in friendly challenges, creating a supportive community of young users developing good habits together.
+### 🌟 Why Paidion?
 
-The parent dashboard, accessible across various devices, provides a comprehensive overview of their child's progress and allows for easy task management and monitoring of developing habits.
+- **Child-Centric Design**: Created specifically to captivate young minds
+- **Long-Term Impact**: Builds lasting positive habits through engaging gameplay
+- **Scalable Solution**: Grows with your child's developing responsibilities
+- **Distraction-Free**: Purpose-built device keeps focus on habit development
 
-## WHY WE STAND OUT
+## ⚡ Core Features
 
-    heavy focus on creating something that children will actually want to use
-    focus on long-term benefits that will actually help children
-    scalable product, with large amount of growth
-    purpose-built device that provides a focused, distraction-free experience – unlike phones or tablets that can lead to other diversions, Paidion's dedicated console creates a special connection between child and digital pet while maintaining their attention on developing good habits
+### For Children
+- Interactive virtual pet that responds to daily task completion
+- Social features to connect with friends' companions
+- Achievement system that rewards consistency
+- Engaging mini-games tied to responsibilities
 
-## How we built it
+### For Parents
+- Comprehensive dashboard accessible across devices
+- Real-time monitoring of task completion
+- Customizable goal setting
+- Progress tracking and habit analysis
 
-our hardware component uses esp32s3 dev module board with various components for input and output we have an parents' dashboard deployed through render
+## 🛠️ Built With
 
-## Challenges we ran into
+- **Hardware**: ESP32S3 Dev Module Board
+- **Dashboard**: Deployed through Render
+- **Custom Components**: Specialized input/output modules
 
-there were many problems here is a small list of only some of them!
+## 🎯 Target Audience
 
-    first time working with hardware
-    didnt have all the hardware components we needed (had to adapt) for example, we didnt have any male to male jumper cables and had to create our own by dissecting the wires and joining them with electrical tape
-    INTEGRATION HELL 〒▽〒
-    
-This is a project made for SUTD's What the Hack haackathon
+Working parents seeking an innovative solution for:
+- Monitoring children's daily responsibilities
+- Encouraging positive habit formation
+- Creating a fun, engaging approach to chores and self-care
 
-# THEME + PROBLEM STATEMENT
+## 🌱 Development Journey
 
-## Everyday Automation
+### Challenges Conquered
+- First-time hardware development experience
+- Creative solutions for component limitations
+- Integration complexity across platforms
 
-Artificial Intelligence (AI) has progressed leaps and bounds over the past few years, transforming the way we work and learn in classrooms. On the other hand, Internet of Things (IoT) technology has enhanced our awareness of the built environment around us on top of enabling new conveniences. How might we further harness these two technologies in our household and office buildings for monitoring, predicting failures, or reducing energy consumption? Teams may choose to use either Al or loT, or both.
-TARGET AUDIENCE
+### Future Roadmap
+- Enhanced social features
+- Additional pet varieties
+- Extended parental controls
+- Educational content integration
 
-parents with young children (especially working class parents have little time in the household to monitor their children)
+## 👥 Meet the Team
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GabrielxKuek">
+        <img src="https://avatars.githubusercontent.com/GabrielxKuek" width="100px;" alt="Gabriel"/><br />
+        <sub><b>Kuek Guan Jie Gabriel</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ProjektKevin">
+        <img src="https://avatars.githubusercontent.com/ProjektKevin" width="100px;" alt="Kevin"/><br />
+        <sub><b>Min Thet Khine (Kevin)</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/xR4F4ELx">
+        <img src="https://avatars.githubusercontent.com/xR4F4ELx" width="100px;" alt="Rafael"/><br />
+        <sub><b>Rafael Macam</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Dar3valo">
+        <img src="https://avatars.githubusercontent.com/Dar3valo" width="100px;" alt="Darren"/><br />
+        <sub><b>Wong Hong Chee (Darren)</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/0Nate">
+        <img src="https://avatars.githubusercontent.com/0Nate" width="100px;" alt="Nate"/><br />
+        <sub><b>Nate</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 🏆 Acknowledgments
+
+This project was developed for Singapore University of Technology and Design(SUTD)'s What the Hack 2024 hackathon, addressing the theme of **Everyday Automation**. We aimed to demonstrate how AI and IoT technologies can enhance household monitoring and create meaningful impact in daily life.
+
+---
+
+<div align="center">
+  Made by Team Error Code: 418
+</div>
